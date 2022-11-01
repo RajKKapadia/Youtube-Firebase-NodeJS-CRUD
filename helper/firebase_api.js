@@ -112,7 +112,7 @@ const getDocumentsWithWhere = async (key, value, condition) => {
     }
 };
 
-// getDocumentsWithWhere('name', 'Raj', '==')
+// getDocumentsWithWhere('name', 'Rafj', '=')
 //     .then((res) => {
 //         console.log(res);
 //     })
@@ -138,7 +138,7 @@ const updateDocument = async (id, update) => {
 };
 
 // updateDocument(
-//     'KUWg9TPXX0REEw9cNZgP',
+//     'sb7ktX0W7YEWa61mqhZa',
 //     {
 //         name: 'Rajesh'
 //     }
@@ -167,7 +167,7 @@ const deleteDocument = async (id) => {
     }
 };
 
-// deleteDocument('KUWg9TPXX0REEw9cNZgP')
+// deleteDocument('sb7ktX0W7YEWa61mqhZa')
 //     .then((res) => {
 //         console.log(res);
 //     })
